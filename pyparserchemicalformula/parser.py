@@ -77,6 +77,16 @@ def _parse(formula):
 
 
 def parse_molecule(formula):
+    """Parse the formula and return a dict with occurences of each atom.
+
+    @param formula: The forumla to parse
+    @type formula: str
+
+    @return: The result of the forumla
+    @rtype : dict
+
+    @raise ValueError: The formula is invalid
+    """
     """Parse the formula and return a dict with occurences of each atom"""
     if not is_balanced(formula):
         raise ValueError("Watch your brackets ![{]$[&?)]}!]")
