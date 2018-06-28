@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyparserchemicalformula',
-    version='0.1',
+    version='0.2.dev0',
     description='To parse chemical formula.',
     long_description='''
 To parse chemical formula with python.
